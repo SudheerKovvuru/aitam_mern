@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner{
+    background-image: url("./mountain.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#E0DEDB;
+    font-size: 25px;
+    text-shadow: 4px 4px 10px black;
+}
+button{
+    background-color: transparent;
+    color:#E0DEDB;
+    padding:9px 25px ;
+    border-radius: 25px;
+    margin: 15px;
+    border:1px solid #E0DEDB;
+    font-size: 15px;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px black;
+}
+button:hover{
+    background-color:#E0DEDB;
+    color:#0C1814;
+}
