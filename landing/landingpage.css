@@ -25,9 +25,11 @@ button{
     border:1px solid #E0DEDB;
     font-size: 15px;
     cursor: pointer;
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 1px 1px 15px black;
 }
 button:hover{
     background-color:#E0DEDB;
     color:#0C1814;
 }
+
+
