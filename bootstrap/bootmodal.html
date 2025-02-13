@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal">lunch model</button>
+    <div class="modal" id="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">header of the Modal</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This is modal body</p>
+                </div>
+                <div class="modal-footer">
+                    <button class=" btn btn-primary">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <button class="btn btn-warning m-3 shadow-sm" data-bs-toggle="collapse" data-bs-target="#collapse">Click Me</button>
+        <div class="collapse" id="collapse">
+            <div class="card card-body">
+                <h1>This is collapse</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, non.</p>
+
+            </div>
+        </div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquam, porro blanditiis assumenda ea labore quod neque iste laudantium officiis suscipit vero maxime in fugit, voluptatibus commodi quia obcaecati odio.</h1>
+</body>
+</html>

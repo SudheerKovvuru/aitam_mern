@@ -1,0 +1,39 @@
+.main{
+    margin:auto;
+    border:10px solid black;
+    width: 15%;
+    height: 70%;
+}
+.frame{
+    border:10px solid white;
+    background-color: brown;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.first{
+    background-color: blanchedalmond;
+    width: 90%;
+    height:20%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.second{
+    background-color:chocolate;
+    width: 90%;
+    height:20%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.third{
+    background-color:darkorange;
+    width:90%;
+    height:20%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}

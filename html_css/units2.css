@@ -1,0 +1,22 @@
+.main{
+    width:80%;
+    height: 50vh;
+    background-color: lightgray;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.main:hover{
+    width: 90%;
+    height: 40vh;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size:1.2em ;
+}
+button{
+    padding:10px 45px;
+}
